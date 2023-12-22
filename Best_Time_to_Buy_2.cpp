@@ -36,5 +36,5 @@ int main()
 
     delete[] array;
 
-    // return 0;
+    return 0;
 }
