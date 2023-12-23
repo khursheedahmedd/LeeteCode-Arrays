@@ -24,7 +24,7 @@ int majorityElement(int *nums, int numsSize)
         }
     }
 
-    return majority;
+    // return majority;
 }
 
 int main()
