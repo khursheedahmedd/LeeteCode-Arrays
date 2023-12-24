@@ -22,8 +22,8 @@ void findTriplets(int *nums, int numsSize)
 int main()
 {
     int size;
-    // cout << "\nEnter the size of the array: ";
-    // cin >> size;
+    cout << "\nEnter the size of the array: ";
+    cin >> size;
 
     int *array = new int[size];
 
