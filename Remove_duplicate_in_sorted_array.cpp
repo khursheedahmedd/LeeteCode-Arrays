@@ -37,10 +37,10 @@ int main()
     cout << "\nNumber of unique elements left: " << k << endl;
 
     cout << "\nThe remaining elements are: ";
-    // for (int i = 0; i < k; i++)
-    // {
-    //     cout << array[i] << " ";
-    // }
+    for (int i = 0; i < k; i++)
+    {
+        cout << array[i] << " ";
+    }
 
     delete[] array;
 
