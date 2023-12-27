@@ -14,11 +14,11 @@ int *productExceptSelf(int *nums, int numsSize)
 
     int rightProduct = 1;
 
-    for (int i = numsSize - 1; i >= 0; --i)
-    {
-        result[i] *= rightProduct;
-        rightProduct *= nums[i];
-    }
+    // for (int i = numsSize - 1; i >= 0; --i)
+    // {
+    //     result[i] *= rightProduct;
+    //     rightProduct *= nums[i];
+    // }
 
     return result;
 }
