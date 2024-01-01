@@ -20,10 +20,10 @@ void merge(int *nums1, int m, int *nums2, int n)
         }
     }
 
-    while (j >= 0)
-    {
-        nums1[k--] = nums2[j--];
-    }
+    // while (j >= 0)
+    // {
+    //     nums1[k--] = nums2[j--];
+    // }
 }
 
 int main()
