@@ -12,7 +12,7 @@ void findTriplets(int *nums, int numsSize)
             {
                 if (nums[i] + nums[j] + nums[k] == 0)
                 {
-                    // cout << "[" << nums[i] << "," << nums[j] << "," << nums[k] << "]" << endl;
+                    cout << "[" << nums[i] << "," << nums[j] << "," << nums[k] << "]" << endl;
                 }
             }
         }
