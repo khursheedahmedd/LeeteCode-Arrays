@@ -39,7 +39,7 @@ int main()
     for (int i = 0; i < size; i++)
         cin >> array[i];
 
-    cout << "\nThe majority element in array is: " << majorityElement(array, size);
+    // cout << "\nThe majority element in array is: " << majorityElement(array, size);
 
     delete[] array;
 
