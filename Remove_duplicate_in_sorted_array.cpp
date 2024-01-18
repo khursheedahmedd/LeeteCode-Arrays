@@ -17,7 +17,7 @@ int removeDuplicates(int *nums, int numsSize)
         }
     }
 
-    // return k;
+    return k;
 }
 
 int main()
