@@ -4,7 +4,7 @@ using namespace std;
 int bestTimeToBuy(int arr[], int size)
 {
 
-    int profit = 0
+    int profit = 0;
     int maxProfit = 0;
 
     for (int i = 0; i < size; i++)
